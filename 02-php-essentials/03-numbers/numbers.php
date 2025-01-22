@@ -19,7 +19,7 @@
 
             echo ('5' + '2') . "\n"; //=7
             echo round(3.33, 1) . "\n"; //=3.3
-            echo round(3.33, 0) . "\n"; ////=3
+            echo round(3.33, 0) . "\n"; //=3
 
             //shortcuts
             echo $number = ($number * 2) . "\n"; //=6
@@ -28,6 +28,7 @@
             // without echo - variable changes the value
             $number += 2;
             echo $number; //=6 -> now the number has new value
+            // \${$itemPrice} -> dollar escape
             ?></pre>
 </body>
 
