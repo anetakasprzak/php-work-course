@@ -10,7 +10,6 @@
 
 <body>
     <pre><?php
-            // comment
             var_dump('Hello from a var_dump');
             var_dump(123);
             var_dump('4' + 5);
