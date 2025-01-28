@@ -9,8 +9,16 @@
 </head>
 
 <body>
-    <pre></pre>
+    <pre><?php
+            var_dump($_GET);
+            var_dump($_POST); //doesn't show in url
+            ?></pre>
 
+    <form action="form.php" method="POST">
+        <input type="text" name="username" value="<?php if (!empty($_POST['username'])) echo $_POST['username']; ?>" />
+        <input type="password" name="password" />
+        <input type="submit" value="Login!">
+    </form>
 
 </body>
 

@@ -11,7 +11,7 @@
 <body>
     <pre><?php
             // Retrieve user input from the url
-            var_dump($_GET);
+            // var_dump($_GET);
             ?></pre>
 
     <?php if (!empty($_GET['book'])): ?>
